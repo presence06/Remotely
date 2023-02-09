@@ -21,6 +21,9 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
+    serverUrl: 'https://remote.wolftronpc.net'
+      description: 'Server URL'
+      required: true
       rid:
         description: 'Server Runtime Identifier'     
         required: false
